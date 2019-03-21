@@ -1,4 +1,4 @@
-# Android_Pets
+# Android Pets
 
 This project will let you practice creating a new project including creating a git repo for it, adding it to GitHub on your account, making changes, committing them, and pushing them.
 
@@ -13,9 +13,9 @@ This project will let you practice creating a new project including creating a g
 ### Part 2 - Create a git Repository
 
 1. Using Terminal, `cd` to the directory containing your Android Studio project.
-2. Initialize a new git repo using `git init`.
-3. Add all the files in the directory to the repo using `git add.`.
-4. Commit the files using `git commit -m "notes"`.
+2. Initialize a new git repo using `git init`
+3. Add all the files in the directory to the repo using `git add .`
+4. Commit the files using `git commit -m "notes"`
 
 ### Part 3 - Create a new Repository on GitHub
 
