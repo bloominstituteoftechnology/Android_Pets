@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PetList</string>
+    <string name="my_pet_list">My Pet List:</string>
+    <string name="_1_cat">1. Cat</string>
+    <string name="_2_cat">2. Cat</string>
+    <string name="_3_dog">3. Dog</string>
 </resources>
