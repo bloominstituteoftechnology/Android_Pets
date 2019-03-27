@@ -19,9 +19,14 @@ public class PetListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pet_list);
 
 
+        interLayout = findViewById(R.id.inter_lineaerlayout);
+
         petCat1 = findViewById(R.id.cat1);
+
         petCat2 = findViewById(R.id.cat2);
+
         petDog = findViewById(R.id.dog1);
+
         textViewPet = findViewById(R.id.textvew_list);
     }
 
@@ -40,8 +45,8 @@ public class PetListActivity extends AppCompatActivity {
         <!--app:layout_constraintStart_toStartOf="parent"-->
         <!--tools:layout_editor_absoluteY="256dp" />-->*/
 
-    void generatePetTextView(String text){
-        TextView textView = new TextView(context);
+    void generatePetTextList(String text){
+        final TextView textView = new TextView(context);
 
         textView.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT));
         textView.setText(text);
