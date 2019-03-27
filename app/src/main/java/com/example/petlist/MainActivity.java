@@ -18,4 +18,7 @@ public class MainActivity extends AppCompatActivity {
         petCat2 = findViewById(R.id.cat2);
         petDog = findViewById(R.id.dog1);
     }
+
 }
+
+
